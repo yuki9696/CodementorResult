@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B2208B7F1E5A0C7B00BF0A2B /* music4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2208B7E1E5A0C7B00BF0A2B /* music4.mp3 */; };
+		B2208B831E5ABB2700BF0A2B /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2208B821E5ABB2700BF0A2B /* SecondTableViewController.swift */; };
+		B2208B871E5B228400BF0A2B /* AudioPage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2208B861E5B228400BF0A2B /* AudioPage2ViewController.swift */; };
 		B28D887C1E5093890034654C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28D887B1E5093890034654C /* AppDelegate.swift */; };
 		B28D887E1E5093890034654C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28D887D1E5093890034654C /* ViewController.swift */; };
 		B28D88811E5093890034654C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28D887F1E5093890034654C /* Main.storyboard */; };
@@ -33,6 +35,8 @@
 
 /* Begin PBXFileReference section */
 		B2208B7E1E5A0C7B00BF0A2B /* music4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music4.mp3; path = ../../Desktop/music4.mp3; sourceTree = "<group>"; };
+		B2208B821E5ABB2700BF0A2B /* SecondTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
+		B2208B861E5B228400BF0A2B /* AudioPage2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPage2ViewController.swift; sourceTree = "<group>"; };
 		B28D88781E5093890034654C /* audioDidFinish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = audioDidFinish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B28D887B1E5093890034654C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B28D887D1E5093890034654C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,8 +78,8 @@
 				B28D887A1E5093890034654C /* audioDidFinish */,
 				B28D88921E5093890034654C /* audioDidFinishUITests */,
 				B28D88791E5093890034654C /* Products */,
-				B2A5268F1E5724CD00EF58DE /* music2.mp3 */,
 				B2A526901E5724CD00EF58DE /* music1.mp3 */,
+				B2A5268F1E5724CD00EF58DE /* music2.mp3 */,
 				B2A526911E5724CD00EF58DE /* music3.mp3 */,
 				B2208B7E1E5A0C7B00BF0A2B /* music4.mp3 */,
 			);
@@ -95,6 +99,8 @@
 			children = (
 				B28D887B1E5093890034654C /* AppDelegate.swift */,
 				B28D887D1E5093890034654C /* ViewController.swift */,
+				B2208B821E5ABB2700BF0A2B /* SecondTableViewController.swift */,
+				B2208B861E5B228400BF0A2B /* AudioPage2ViewController.swift */,
 				B28D889E1E5093E40034654C /* customButton.swift */,
 				B28D887F1E5093890034654C /* Main.storyboard */,
 				B28D88851E5093890034654C /* Assets.xcassets */,
@@ -224,8 +230,10 @@
 			files = (
 				B28D889F1E5093E40034654C /* customButton.swift in Sources */,
 				B28D88841E5093890034654C /* audioDidFinish.xcdatamodeld in Sources */,
+				B2208B831E5ABB2700BF0A2B /* SecondTableViewController.swift in Sources */,
 				B28D887E1E5093890034654C /* ViewController.swift in Sources */,
 				B28D887C1E5093890034654C /* AppDelegate.swift in Sources */,
+				B2208B871E5B228400BF0A2B /* AudioPage2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
